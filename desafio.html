@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Desafio - JS</title>
+    <link rel="stylesheet" type="text/css" href="estilos/estilo.css" />
+</head>
+
+<body>
+    <div id="form-calculo">
+        <input type="number" id="campo-valor" name="valor" placeholder="Insira aqui o valor" onkeydown="if (event.keyCode == 13) desafio();"/>
+        <button id="botao-calcular" onclick="desafio()">Calcular</button>
+        <div id="resultado">
+            <p>A soma de todos os m&uacute;ltiplos de 3 e 5 at&eacute; <span id="valor-original">o valor informado acima</span> &eacute;:</p>
+            <p id="campo-resultado">X</p>
+        </div>
+    </div>
+    <script src="scripts/desafio.js"></script>
+</body>
+</html>
