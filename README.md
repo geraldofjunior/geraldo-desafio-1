@@ -6,7 +6,7 @@ Este projeto é uma resolução para o seguinte problema:
 
 A solução proposta contempla tanto PHP quanto JavaScript, sendo que o arquivo `desafio.php` roda a solução em PHP, enquanto `desafio.html` mostra o resultado em JavaScript, cujo código está em `./scripts/desafio.js`.
 
-Não foi usado framework algum por conta da pura e simples falta de necessidade. 
+Não foi usado framework algum por falta de necessidade. 
 
 ## Instalação
 ### Pré-requisitos
